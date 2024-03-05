@@ -166,21 +166,26 @@ button {
     .produtos {
         max-width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 49%);
-        column-gap: 3%;
+        grid-template-columns: repeat(2, 48%);
+        column-gap: 2%;
         row-gap: 5%;
     }
 
     .produtos article {
-            margin-left: 0;
-            margin-top: 0;
-    }
-    .button {
-        margin: 0 5%;
-        width: 100%;
+            width: 100%;
+            text-align: center;
     }
 
-    .conteudo h2 {
-        margin-bottom: 32px;
+    .produtos article img {
+        max-width: 100%;
+    }
+
+    .produtos article h3,
+    .produtos article p {
+        margin: 10px 0;
+    }
+
+    .produtos article button {
+        margin: 18px 0;
     }
 }
